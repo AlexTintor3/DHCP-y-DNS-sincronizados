@@ -1,0 +1,4 @@
+key "rndc-key" {
+	algorithm hmac-md5;
+	secret "sFqZBKzCv3sGWxDnivFBzSrL10WpWwZ7KMo/pNWXMsaHCbUgAbkJhTkUbDwejBIwXrEmCa6PeI+1JJr1kbtYvQ==";
+};

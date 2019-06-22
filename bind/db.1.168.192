@@ -1,0 +1,19 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+1.168.192.in-addr.arpa	IN SOA	localhost. root.localhost. (
+				15         ; serial
+				604800     ; refresh (1 week)
+				86400      ; retry (1 day)
+				2419200    ; expire (4 weeks)
+				86400      ; minimum (1 day)
+				)
+			NS	localhost.
+$ORIGIN 1.168.192.in-addr.arpa.
+10			PTR	alex.com
+$TTL 3600	; 1 hour
+150			PTR	DESKTOP-0ET57HJ.alex.com.
+$TTL 86400	; 1 day
+152			PTR	worker2.alex.com
+153			PTR	worker1.alex.com
+$TTL 3600	; 1 hour
+160			PTR	CorreoPro.alex.com.
